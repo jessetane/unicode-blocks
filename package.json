@@ -6,9 +6,17 @@
     "build": "node bin/download-blocks.js",
     "test": "node test"
   },
+  "dependencies": {
+    "brfs": "^1.4.1"
+  },
   "devDependencies": {
     "hyperquest": "^1.2.0",
     "tape": "^4.2.2"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
   },
   "repository": "https://github.com/jessetane/unicode-block-from-code-point",
   "author": "jesse.tane@gmail.com",
