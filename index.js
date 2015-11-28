@@ -1,8 +1,9 @@
 module.exports = function (codePoint) {
+  if (codePoint < 0 || codePoint > end) return
   var i = -1
   while (++i < blocks.length) {
     var block = blocks[i]
-    if (block.start <= codePoint && block.end >= codePoint) {
+    if (codePoint <= block.end) {
       return block
     }
   }
@@ -21,3 +22,4 @@ var blocks = defs.split('\n').filter(function (line) {
     end: parseInt(range[1], 16)
   }
 })
+var end = blocks[blocks.length - 1].end
