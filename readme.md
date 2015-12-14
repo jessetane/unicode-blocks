@@ -1,2 +1,2 @@
-# unicode-block-from-code-point
-Get the block a unicode code point belongs to.
+# unicode-blocks
+An array of all the Unicode blocks. Inflated at runtime to keep build size down. Includes a helper `fromCodePoint` for looking up blocks by codePoint.

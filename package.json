@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "hyperquest": "^1.2.0",
+    "split2": "^1.0.0",
     "tape": "^4.2.2"
   },
   "browserify": {
