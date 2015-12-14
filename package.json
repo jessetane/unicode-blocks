@@ -19,7 +19,7 @@
       "brfs"
     ]
   },
-  "repository": "https://github.com/jessetane/unicode-block-from-code-point",
+  "repository": "https://github.com/jessetane/unicode-blocks",
   "author": "jesse.tane@gmail.com",
   "license": "WTFPL"
 }
