@@ -1,6 +1,6 @@
 {
   "name": "unicode-blocks",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "An array of all the Unicode blocks",
   "scripts": {
     "build": "node bin/download-blocks.js",
