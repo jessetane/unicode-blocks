@@ -1,5 +1,5 @@
 var tape = require('tape')
-var blockFromCodePoint = require('./')
+var blockFromCodePoint = require('./').fromCodePoint
 
 tape('get first block', function (t) {
   t.plan(2)
