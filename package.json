@@ -1,7 +1,7 @@
 {
   "name": "unicode-blocks",
   "version": "2.0.1",
-  "description": "Look up the block that a unicode code-point belongs to",
+  "description": "An array of all the Unicode blocks",
   "scripts": {
     "build": "node bin/download-blocks.js",
     "test": "node test"
